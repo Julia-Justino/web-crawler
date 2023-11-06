@@ -5,7 +5,7 @@ from urllib.error import URLError
 from bs4 import BeautifulSoup
 
 try:
-    html = urlopen("https://www.python.org/")
+    html = urlopen("https://g1.globo.com/sp/sao-paulo/")
 except HTTPError as e:
     print(e)
 except URLError:
