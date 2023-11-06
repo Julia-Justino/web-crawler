@@ -1,3 +1,4 @@
+#Fonte: https://imasters.com.br/back-end/como-fazer-web-scraping-com-python
 from urllib.request import urlopen
 from urllib.error import HTTPError
 from urllib.error import URLError
