@@ -15,3 +15,6 @@ else:
         print("Tag not found")
     else:
         print(res.title)
+        tags = res.findAll("h3", {"class": "post-title"})
+        for tag in tags:
+            print(tag.getText())
